@@ -1,0 +1,19 @@
+{
+  "meetups": [
+    {
+      "id": 1,
+      "title": "Park Day \u2013 Riverdale East",
+      "info": "Fri 3pm \u2022 Ages 6\u201310 \u2022 Bikes + soccer"
+    },
+    {
+      "id": 2,
+      "title": "Makerspace Morning",
+      "info": "Sat 10am \u2022 Solder, 3D print, cardboard arcade"
+    },
+    {
+      "id": 3,
+      "title": "Beach Cleanup",
+      "info": "Sun 9am \u2022 All ages \u2022 Gloves provided"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+import Image from 'next/image'
+import { MapPin, ShieldCheck } from 'lucide-react'
+export default function FamilyCard({ f }: { f: any }) {
+  return (<div className="p-4 card flex items-center justify-between"><div className="flex items-center gap-3"><Image src={f.avatar} alt={f.name} width={44} height={44} className="rounded-full border" /><div><div className="flex items-center gap-2"><p className="font-medium">{f.name}</p>{f.verified && (<span className="badge"><ShieldCheck className="h-3 w-3"/>Verified</span>)}</div><p className="text-sm text-gray-600 flex items-center gap-1"><MapPin className="h-4 w-4"/>{f.city} • Kids: {f.kids}</p><p className="text-xs text-gray-500">Interests: {f.interests.join(', ')} • Languages: {f.languages.join(', ')}</p></div></div><button className="btn">Message</button></div>)}

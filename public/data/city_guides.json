@@ -1,0 +1,34 @@
+{
+  "guides": [
+    {
+      "city": "Toronto",
+      "items": [
+        "Riverdale Farm",
+        "Ontario Science Centre",
+        "Leslie Spit bike loop",
+        "Art Gallery of Ontario",
+        "Evergreen Brick Works"
+      ]
+    },
+    {
+      "city": "Austin",
+      "items": [
+        "Thinkery",
+        "Barton Springs",
+        "Mayfield Park Peacocks",
+        "Zilker Park",
+        "Mount Bonnell"
+      ]
+    },
+    {
+      "city": "Tangier",
+      "items": [
+        "Hercules Caves",
+        "American Legation Museum",
+        "Corniche bike path",
+        "Kasbah Museum",
+        "Cafe Hafa"
+      ]
+    }
+  ]
+}
